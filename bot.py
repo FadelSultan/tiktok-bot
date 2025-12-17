@@ -4,7 +4,7 @@ from telegram import Update
 from telegram.ext import Application, CommandHandler, MessageHandler, filters, ContextTypes
 
 # التوكن من متغيرات البيئة
-BOT_TOKEN = os.environ.get("BOT_TOKEN")
+BOT_TOKEN = os.environ.get("8370038083:AAEpJzgriunEy-mnPi7efbPeEy6KSo5H9LA")
 
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
     welcome = """
